@@ -4,3 +4,5 @@ jobs :
         runs-on : windows-latest 
         steps : 
             - run : node --version
+            - run : npm --version
+            - uses : actions/checkout@v3
